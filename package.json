@@ -4,7 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "docs:dev": "cd note && yarn docs:dev",
+    "docs:build": "cd note && yarn docs:build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
