@@ -2,7 +2,6 @@ const { sidebar } = require('./config/sidebar')
 const { nav } = require('./config/nav')
 
 module.exports = {
-    base: '/vue/',
     title: 'Vue学习笔记',
     description: 'Vue学习笔记',
     themeConfig: {
