@@ -11,7 +11,7 @@ cp Dockerfile ../note/docs/.vuepress/dist
 cp default.conf ../note/docs/.vuepress/dist
 
 # 进入生成的文件夹
-cd note/docs/.vuepress/dist
+cd ../note/docs/.vuepress/dist
 
 git init
 git add -A
